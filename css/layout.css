@@ -1,0 +1,70 @@
+:root {
+  --primary: #033c76;
+  --white: #ffffff;
+}
+
+body{
+  padding: 2rem;
+}
+
+.blog-section{
+  display: flex;
+  margin-top: 2rem;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.blog-container{
+  display: flex;
+}
+
+.card{
+  border: 1px solid black;
+  padding: 1rem;
+}
+
+.card p{
+  margin: 1rem 0;
+}
+
+.line{
+  height: .3rem;
+  width: 2rem;
+  margin: .5rem;
+  background: black;
+}
+
+.nav-links{
+  display: none;
+}
+
+.burger-menu{
+  position: absolute;
+  right: 1rem;
+  top: 1.5rem;
+}
+
+.blog h1{
+    margin: 2rem 0;
+}
+
+@media only screen and (min-width: 1024px){
+  .card{
+    width: 30%;
+  }
+
+  .main-nav ul{
+    display: flex;
+    gap: 1rem;
+  }
+
+  .burger-menu{
+    display: none;
+  }
+
+  .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
